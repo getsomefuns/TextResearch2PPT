@@ -1,0 +1,8 @@
+api_endpoints:
+     chat: "https://api.deepseek.com/v1/chat/completions"
+default_paths:
+  research_output: "intermediate/research_output.json"
+  mindmap_output: "intermediate/mindmap.mmd" 
+  ppt_template: "assets/default_template.pptx"
+  ppt_output: "output/presentation.pptx"
+  

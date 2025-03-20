@@ -1,0 +1,8 @@
+# .gitignore
+.env
+__pycache__/
+output/
+*.pptx
+*.png
+*.txt
+venv/

@@ -1,0 +1,16 @@
+{
+    "text_generation": {
+        "enable": true,
+        "model": "gpt-4-turbo",
+        "prompt_template": "config/llm_prompts/research_template.txt"
+    },
+    "mindmap_generation": {
+        "enable": true,
+        "allow_edit": true,
+        "regen_threshold": 2 
+    },
+    "ppt_generation": {
+        "enable": true,
+        "template": "assets/professional_template.pptx"
+    }
+}

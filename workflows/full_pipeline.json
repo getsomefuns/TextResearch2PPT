@@ -1,0 +1,11 @@
+{
+    "steps": {
+        "text_generation": true,
+        "mindmap_generation": true,
+        "ppt_generation": true
+    },
+    "allow_edit": {
+        "text": true,
+        "mindmap": true
+    }
+}

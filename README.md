@@ -61,26 +61,3 @@ output/
 MIT License - 详见 [LICENSE](LICENSE)
 
 
-
-
-项目结构
-
-Text2PPT/
-├── src/
-│   ├── llm_integration.py    # 大模型交互模块
-│   ├── mindmap_generator.py  # 思维导图生成模块
-│   └── ppt_generator.py      # PPT生成核心逻辑
-├── config/
-│   └── settings.py           # API密钥等配置
-├── assets/
-│   └── template.pptx         # PPT默认模板
-├── tests/                    # 单元测试
-├── docs/                     # 开发文档
-├── output/                   # 生成文件目录（自动创建）
-├── main.py                   # 主程序入口
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-├── package.json              # Mermaid CLI依赖
-├── .gitignore
-└── README.md
